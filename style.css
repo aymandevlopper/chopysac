@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Shizuru&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background:linear-gradient(#1c4e58,#2e8192);
+    height:250vh; 
+}
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    z-index: 100;
+}
+
+.title{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+ul{
+    display: flex;
+    margin:5px;
+   
+}
+
+li{
+   list-style: none; 
+}
+
+li a  {
+    margin:20px;
+    text-align: center;
+    text-decoration: none;
+     color: rgb(255, 255, 255);
+     font-family: 'Nunito', sans-serif;
+     padding: 6px 12px;  
+}
+.active:hover{
+    color: white;
+}
+li a:hover, .active{
+    color: black;
+}
+
+button{
+    border:none;
+     color: white;
+    background-color:#2e8192;
+    border-radius: 5px;
+     padding: 6px 12px;
+}
+button:hover{ 
+    color: black;
+
+}
+/*********image*********/
+.chop{
+    margin-top: 100px;
+    height: 400px;
+    width: 400px;
+}
+.homme-logo{
+  background-color: #74979e; 
+  height: 700px; 
+}
+.welcom{
+    margin-left:50%;
+    margin-top: -260px;
+    font-size: 50px;
+    font-family:'Nunito', sans-serif;
+    color: #0b282c;
+}
+
+/***************cart*********************/
+.cart{
+    background-color: #0b282c;
+    border-radius: 10px;
+    position: relative;
+    top: 200px;
+    margin:auto;
+    width: 800px;
+    height: 400px;
+}
+   /**********tech**********/
+.cart1{
+    background-color: rgb(212, 212, 212);
+    border-radius:15px ;
+    width:220px;
+    height:300px ;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+    margin: 20px;
+    font-family:'Nunito', sans-serif;
+}
+  .image1{
+      height: 110px;
+      width: 200px;
+      border-radius:15px;
+      margin-bottom: 10px;
+  }
+  .tech{
+      color: rgb(57, 100, 102);
+      text-decoration: none;
+      margin-bottom: 10px;
+  } 
+  .para1{
+      margin-bottom: 10px;
+  }
+  /**********vegitable**********/
+  .cart2{
+    background-color: rgb(212, 212, 212);
+    border-radius:15px ;
+    margin: auto;
+    width:220px;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: -287px;
+    font-family:'Nunito', sans-serif;
+    
+}
+  .image2{
+      height: 110px;
+      width: 210px;
+      border-radius:15px;
+      margin-bottom: 10px;
+  }
+  .vegi{
+    color: rgb(57, 100, 102);
+    text-decoration: none;
+
+      margin-bottom: 10px;
+  }
+  .para2{
+      margin-bottom: 25px;
+  }
+
+   /**********book**********/
+   .cart3{
+    background-color: rgb(212, 212, 212);
+    border-radius:15px ;
+    width:220px;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: -605px;
+    left: 545px;
+    font-family:'Nunito', sans-serif;
+    
+    
+}
+  .image3{
+      height: 110px;
+      width: 200px;
+      border-radius:15px ;
+      margin-bottom: 10px;
+  }
+  .book{
+    color: rgb(57, 100, 102);
+    text-decoration: none;
+      margin-bottom: 10px;
+  }
+  .para3{
+      margin-bottom: 25px;
+  }
+
+/*********final-page********/
+.vide{
+    
+    background-color: rgba(255, 255, 255, 0.849);
+    width: 100%;
+    height: 50%;
+     position: absolute;
+    top:250%;
+}
+
+.insta{
+    color: #2e8192;
+    position: relative;
+    left: 30px;
+    top:60px;
+}
+.fcb{
+    color: #2e8192;
+    position: relative;
+    left: 30px;
+    top: 112px;
+}
+.twiter{
+    color:  #2e8192;
+    position: relative;
+    left: 30px;
+    top: 170px;
+}
+
+.insta :hover{
+    color: black;
+}
+.fcb :hover{
+    color:black ;
+}
+.twiter :hover{
+    color:black;
+}
+
+#selector{
+    position: relative;
+    left:90%;
+    top: 70px;
+    width: 80px;
+    height:30px;
+    background-color: #2e8192;
+    color: rgb(214, 214, 214);
+    border-radius: 8px;
+    border: none;
+}
+
+.text1{
+    position: absolute;
+    left: 30%;
+    font-size: 30px;
+}
+.gmail{
+     position: absolute;
+    left: 45%;
+    top: 50%;
+    font-size: 20px;
+}
+/********chi haja*********/
+
